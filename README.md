@@ -1,7 +1,7 @@
 # カウントアプリ。
 iOS,MacOS,Linux 動作OK。
 
-<font color="Red">**Androidはビルド失敗。**</font>
+<font color="Red">Androidはビルド失敗。</font>
 
 ---
 # 忘れるので記載
