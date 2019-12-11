@@ -1,0 +1,24 @@
+# File name: main.py
+<MainWidget>
+    # orientation: 'vertical'
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: root.text
+            font_size: 100
+
+        BoxLayout:
+            Button:
+                text: "+"
+                font_size: 75
+                on_press: root.add(self)
+
+            Button:
+                text:"-"
+                font_size: 75
+                on_press: root.minus(self)
+
+        Button:
+            text:"reset"
+            font_size:75
+            on_press: root.reset(self)
